@@ -1,0 +1,78 @@
+.header-visible {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: 1s ease;
+}
+
+.header-visible.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.header-list-item {
+  opacity: 0;
+  transition: 2s ease;
+  transform: translateX(-3px);
+}
+
+.header-list-item.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.contact-num {
+  opacity: 0;
+  transition: 2s ease;
+  transform: translateX(-10px);
+}
+
+.contact-num.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.lang {
+  opacity: 0;
+  transition: 2s ease;
+  transform: translateX(-10px);
+}
+
+.lang.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.hero-text-one,
+.hero-text-two {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: 3s ease;
+}
+
+.hero-text-one.show,
+.hero-text-two.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hero .button {
+  opacity: 0;
+  transition: 4s ease;
+  transform: translateX(-20px);
+}
+
+.hero .button.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hero-info {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: 1s ease;
+}
+
+.hero-info.show {
+  opacity: 1;
+  transform: translateY(0);
+}
